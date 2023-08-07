@@ -1,0 +1,12 @@
+vpn.bank.com
+smtp.store.com
+sshd1.cougar.edu
+ftp.brown.edu
+www.mynah.edu
+vpn.shop.com
+ssh.cougar.edu
+web.alpha.com
+ftp.green.edu
+www.banc.com
+www.stop.edu
+bye

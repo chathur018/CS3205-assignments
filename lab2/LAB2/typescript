@@ -1,0 +1,45 @@
+Script started on 2023-03-04 13:39:27+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="109" LINES="18"]
+[?2004h]0;chathur@chathur-Inspiron-7501: ~/Documents/CS3205/lab2/LAB2[01;32mchathur@chathur-Inspiron-7501[00m:[01;34m~/Documents/CS3205/lab2/LAB2[00m$ ./launcher 10000 lab2-input1-localservers.txt make[K./launcher 10000 lab2-input1-localservers.txt make[K./launcher 10000 lab2-input1-localservers.txt [K./lab2-cs[Ks[K[K[K[K[K[K[K[K[Kmake clean
+[?2004lrm -f Makefile.bak a.out core errs lint.errs lab2-cs20b018   *.o
+rm -f NR* RDS* TDS* ADS*
+[?2004h]0;chathur@chathur-Inspiron-7501: ~/Documents/CS3205/lab2/LAB2[01;32mchathur@chathur-Inspiron-7501[00m:[01;34m~/Documents/CS3205/lab2/LAB2[00m$ make
+[?2004lcc -W -pedantic -g     -c -o connectsock.o connectsock.c
+cc -W -pedantic -g     -c -o passivesock.o passivesock.c
+cc -W -pedantic -g     -c -o errexit.o errexit.c
+cc -W -pedantic -g     -c -o servers.o servers.c
+cc -W -pedantic -g     -c -o lab2-cs20b018.o lab2-cs20b018.c
+cc -o lab2-cs20b018 -W -pedantic -g   lab2-cs20b018.o connectsock.o passivesock.o errexit.o servers.o -lm
+[?2004h]0;chathur@chathur-Inspiron-7501: ~/Documents/CS3205/lab2/LAB2[01;32mchathur@chathur-Inspiron-7501[00m:[01;34m~/Documents/CS3205/lab2/LAB2[00m$ ./lab2-cs20b018 20000 lab2-input2[K1-localservers.txt 
+[?2004lStarting Servers...
+************** 
+Name resolver IP address: 127.0.0.1
+Name resolver port      : 20053
+************** 
+Enter Server Name: vpn.bank.com
+DNS Mapping: 202.15.5.5
+Enter Server Name: smtp.store.com
+DNS Mapping: 143.11.5.22
+Enter Server Name: sshd1.cougar.c eu du
+DNS Mapping: 212.18.45.4
+Enter Server Name: ftp.brown.edu
+DNS Mapping: 192.13.5.3
+Enter Server Name: www.mynah.edu
+DNS Mapping: 198.167.5.1
+Enter Server Name: vpn.shop.oc  com
+DNS Mapping: 133.54.5.5
+Enter Server Name: ssh.cougar.edu
+No DNS Record Found
+Enter Server Name: web.ap lpha.com
+No DNS Record Found
+Enter Server Name: ftp.ge reen.edu
+No DNS Record Found
+Enter Server Name: www.banc.com
+No DNS Record Found
+Enter Server Name: www.stop.edu
+No DNS Record Found
+Enter Server Name: bye
+Terminated
+[?2004h]0;chathur@chathur-Inspiron-7501: ~/Documents/CS3205/lab2/LAB2[01;32mchathur@chathur-Inspiron-7501[00m:[01;34m~/Documents/CS3205/lab2/LAB2[00m$ exit
+[?2004lexit
+
+Script done on 2023-03-04 13:43:23+05:30 [COMMAND_EXIT_CODE="143"]
